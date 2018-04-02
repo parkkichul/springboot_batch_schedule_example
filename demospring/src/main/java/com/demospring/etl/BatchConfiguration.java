@@ -70,7 +70,7 @@ public class BatchConfiguration {
     
     public JdbcBatchItemWriter<Person> writer;
     
-    
+    //test222
     
     @Scheduled(cron = "1 53/3 17 * * ?")
     public void perform() throws Exception {
